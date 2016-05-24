@@ -1,0 +1,5 @@
+<% unless current_user %>
+  <%= link_to "Login with Google", google_login_path %>
+<% else %>
+  Welcome, <%= current_user_name %> <%= link_to "logout", logout_path, method: :delete %>
+<% end %>
