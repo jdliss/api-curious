@@ -1,14 +1,40 @@
-<% unless current_user %>
-  <%= link_to "Login with Google", google_login_path %>
-<% else %>
-  Welcome, <%= current_user_name %> <%= link_to "logout", logout_path, method: :delete %>
-<% end %>
+<div class="ui left vertical inverted sidebar labeled icon menu">
+  <% if current_user %>
+    <%= link_to logout_path, method: :delete, class: "item" do %>
+      <i class="remove user icon"></i>
+      Logout
+      <p><%= current_user_name %></p>
+    <% end %>
+  <% else %>
+    <%= link_to google_login_path, class: "item" do %>
+      <i class="remove user icon"></i>
+      Login
+      <p>with Google</p>
+    <% end %>
+  <% end %>
+</div>
+
+<i id="sidebar-toggle" class="big sidebar link icon"></i>
 
 <center>
-<% if current_user %>
-  <p><%= button_to "Generate Headline", generate_headline_path, remote: true, id: "generate-headline" %></p>
-  <p><%= button_to "Generate Abstract", generate_abstract_path, remote: true, id: "generate-abstract" %></p>
-<% end %>
-<h2 class="headline"></h2>
-<p class="abstract"></p>
+  <h2>Welcome to News Generator!</h2>
+  <% if current_user %>
+    <div id="button">
+      <%= button_to generate_headline_path, remote: true, id: "generate-headline", class: "ui animated fade button" do  %>
+        <div class="visible content">Generate Headline</div>
+        <div class="hidden content">Click!</div>
+      <% end %>
+    </div>
+    <div id="button">
+      <%= button_to generate_abstract_path, remote: true, id: "generate-headline", class: "ui animated fade button" do  %>
+        <div class="visible content">Generate Abstract</div>
+        <div class="hidden content">Click!</div>
+      <% end %>
+    </div>
+  <% else %>
+    <h3>Click the icon in the top left to login with Google</h3>
+  <% end %>
+
+  <h2 id="headline" class="ui container"></h2>
+  <p id="abstract" class="ui container"></p>
 </center>

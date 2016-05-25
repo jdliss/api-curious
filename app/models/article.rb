@@ -31,7 +31,7 @@ class Article < ActiveRecord::Base
   end
 
   def self.clean_ending(headline)
-    bad_words = ["the", "at", "in", "or", "of", "a", "it", "its", "it's", "on", "with", "is", "has", "and", "to", "for"]
+    bad_words = ["the", "at", "in", "or", "of", "a", "it", "its", "it's", "on", "with", "is", "has", "and", "to", "for", "as"]
     while bad_words.include?(headline.split.last.downcase)
       headline = headline.split
       headline.pop
