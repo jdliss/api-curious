@@ -4,6 +4,11 @@
   Welcome, <%= current_user_name %> <%= link_to "logout", logout_path, method: :delete %>
 <% end %>
 
+<center>
 <% if current_user %>
-  <p><%= link_to "Generate Headline", generate_headline_path, method: :post %></p>
+  <p><%= button_to "Generate Headline", generate_headline_path, remote: true, id: "generate-headline" %></p>
+  <p><%= button_to "Generate Abstract", generate_abstract_path, remote: true, id: "generate-abstract" %></p>
 <% end %>
+<h2 class="headline"></h2>
+<p class="abstract"></p>
+</center>

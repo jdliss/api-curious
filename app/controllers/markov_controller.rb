@@ -1,2 +1,0 @@
-class MarkovController < ApplicationController
-end
