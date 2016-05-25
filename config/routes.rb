@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   root to: 'welcome#home'
   get "/auth/google_oauth2", as: :google_login
   get "/auth/google_oauth2/callback", to: 'sessions#create'
-  delete "/logout", to: "sessions#destroy", as: "logout"
+  delete "/logout", to: "sessions#destroy", as: :logout
+
+  post "/generate", to: "headlines#create", as: :generate_headline
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

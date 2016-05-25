@@ -3,3 +3,7 @@
 <% else %>
   Welcome, <%= current_user_name %> <%= link_to "logout", logout_path, method: :delete %>
 <% end %>
+
+<% if current_user %>
+  <p><%= link_to "Generate Headline", generate_headline_path, method: :post %></p>
+<% end %>

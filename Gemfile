@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 
+gem 'marky_markov'
+gem 'figaro'
+gem 'faraday'
 gem "omniauth-google-oauth2"
 gem 'rails', '4.2.6'
 gem 'pg', '~> 0.15'
