@@ -1,0 +1,469 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/mostpopular/v2/mostemailed/all-sections/30.json?api-key=f185cf82170b4bf6970752f56a62f867
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Age:
+      - '0'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 26 May 2016 16:55:15 GMT
+      Server:
+      - nginx/1.4.1
+      Vary:
+      - Origin
+      Via:
+      - kong/0.8.1
+      X-Cache:
+      - MISS
+      X-Kong-Proxy-Latency:
+      - '0'
+      X-Kong-Upstream-Latency:
+      - '450'
+      X-Ratelimit-Limit-Day:
+      - '1000'
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Day:
+      - '999'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Varnish:
+      - '72401698'
+      Content-Length:
+      - '27685'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status":"OK","copyright":"Copyright (c) 2016 The New York Times Company.  All
+        Rights Reserved.","num_results":770,"results":[{"url":"http:\/\/www.nytimes.com\/2016\/05\/02\/health\/biggest-loser-weight-loss.html","count_type":"EMAILED","column":"The
+        Science of Fat","section":"Health","byline":"By GINA KOLATA","title":"After
+        \u2018The Biggest Loser,\u2019 Their Bodies Fought to Regain Weight","abstract":"Contestants
+        lost hundreds of pounds during Season 8, but gained them back. A study of
+        their struggles helps explain why so many people fail to keep off the weight
+        they lose.","published_date":"2016-05-02","source":"The New York Times","des_facet":["OBESITY","TELEVISION","SERIES","CALORIES"],"org_facet":["OBESITY
+        (JOURNAL)","NATIONAL INSTITUTE OF DIABETES AND DIGESTIVE AND KIDNEY DISEASES","NATIONAL
+        INSTITUTES OF HEALTH"],"per_facet":["CAHILL, DANNY (1969- )"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"Sean
+        Algaier taking communion at Providence Road Church of Christ in Charlotte,
+        N.C., where he is a pastor.","copyright":"George Etheredge for The New York
+        Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/science\/02BIGGESTLOSER\/02BIGGESTLOSER-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/science\/02BIGGESTLOSER\/02BIGGESTLOSER-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/science\/02BIGGESTLOSER\/02BIGGESTLOSER-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/08\/opinion\/sunday\/why-you-cant-lose-weight-on-a-diet.html","count_type":"EMAILED","column":"Opinion","section":"Opinion","byline":"By
+        SANDRA AAMODT","title":"Why You Can\u2019t Lose Weight on a Diet","abstract":"The
+        problem isn\u2019t willpower. It\u2019s neuroscience. You can\u2019t \u2014
+        and shouldn\u2019t \u2014 fight back.","published_date":"2016-05-08","source":"The
+        New York Times","des_facet":["DIET AND NUTRITION","WEIGHT","OBESITY","EATING
+        DISORDERS"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Eleni
+        Kalorkoti","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/opinion\/sunday\/08aamodt-copy\/08aamodt-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/opinion\/sunday\/08aamodt-copy\/08aamodt-copy-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/opinion\/sunday\/08aamodt-copy\/08aamodt-copy-mediumThreeByTwo440-v3.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/15\/us\/politics\/donald-trump-women.html","count_type":"EMAILED","column":"","section":"U.S.","byline":"By
+        MICHAEL BARBARO and MEGAN TWOHEY","title":"Crossing the Line: How Donald Trump
+        Behaved With Women in Private","abstract":"Interviews reveal unwelcome advances,
+        a shrewd reliance on ambition, and unsettling workplace conduct over decades.","published_date":"2016-05-15","source":"The
+        New York Times","des_facet":["WOMEN AND GIRLS","PRESIDENTIAL ELECTION OF 2016","DISCRIMINATION","SEXUAL
+        HARASSMENT"],"org_facet":"","per_facet":["TRUMP, DONALD J"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"Donald
+        J. Trump with Miss USA contestants in 2013, when he was the pageant\u2019s
+        owner.","copyright":"Darren Decker\/Miss Universe Organization, via Agence
+        France-Presse","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/12\/us\/politics\/00trumpwomen-top-copy\/00trumpwomen-top-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/12\/us\/politics\/00trumpwomen-top-copy\/00trumpwomen-top-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/12\/us\/politics\/00trumpwomen-top-copy\/00trumpwomen-top-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/interactive\/2016\/05\/01\/nyregion\/living-with-alzheimers.html","count_type":"EMAILED","column":"","section":"N.Y.
+        \/ Region","byline":"By N. R. KLEINFIELD","title":"Fraying at the Edges: Her
+        Fight to Live With Alzheimer\u2019s","abstract":"A withered person with a
+        scrambled mind, memories sealed away: That is the familiar face of Alzheimer\u2019s.
+        But there is also the waiting period, which Geri Taylor has been navigating
+        with prudence, grace and hope.","published_date":"2016-05-01","source":"The
+        New York Times","des_facet":["ALZHEIMER''S DISEASE"],"org_facet":"","per_facet":["TAYLOR,
+        GERALDINE A (1943- )"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"\u201cYou\u2019re
+        waiting for something. Something you don\u2019t want to come,\u201d said Geri
+        Taylor, referring to the slow progression of Alzheimer\u2019s.","copyright":"Michael
+        Kirby Smith for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/13\/nyregion\/00alzheimers-promo-social2\/00alzheimers-promo-social2-thumbStandard-v8.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/13\/nyregion\/00alzheimers-promo-social2\/00alzheimers-selects-raw-slide-SUAC-mediumThreeByTwo210-v5.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/13\/nyregion\/00alzheimers-promo-social2\/00alzheimers-selects-raw-slide-SUAC-mediumThreeByTwo440-v5.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/well.blogs.nytimes.com\/2016\/04\/27\/1-minute-of-all-out-exercise-may-equal-45-minutes-of-moderate-exertion\/","count_type":"EMAILED","column":"Well","section":"Health","byline":"By
+        GRETCHEN REYNOLDS","title":"1 Minute of All-Out Exercise May Have Benefits
+        of 45 Minutes of Moderate Exertion","abstract":"Sixty seconds of intense exercise
+        provided the benefits of three-quarters of an hour of moderate cycling.","published_date":"2016-04-27","source":"The
+        New York Times","des_facet":["EXERCISE"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"iStock","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/26\/health\/wellrun34\/wellrun34-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/26\/health\/wellrun34\/wellrun34-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/26\/health\/wellrun34\/wellrun34-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/01\/opinion\/better-aging-through-practice-practice-practice.html","count_type":"EMAILED","column":"Opinion","section":"Opinion","byline":"By
+        GERALD MARZORATI","title":"Better Aging Through Practice, Practice, Practice","abstract":"I
+        can\u2019t promise this will prolong your life. But it will improve it.","published_date":"2016-05-01","source":"The
+        New York Times","des_facet":["TENNIS","AGE, CHRONOLOGICAL","LONGEVITY","PSYCHOLOGY
+        AND PSYCHOLOGISTS"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Olivier
+        Schrauwen","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/opinion\/sunday\/01mazorati\/01mazorati-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/opinion\/sunday\/01mazorati\/01mazorati-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/opinion\/sunday\/01mazorati\/01mazorati-mediumThreeByTwo440-v2.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/08\/us\/what-makes-texas-texas.html","count_type":"EMAILED","column":"Assignment
+        America","section":"U.S.","byline":"By MANNY FERNANDEZ","title":"What Makes
+        Texas Texas","abstract":"People in this rapidly changing state believe their
+        way of life is under attack, and they are making a kind of last stand by simply
+        being Texan.","published_date":"2016-05-08","source":"The New York Times","des_facet":["SERIES"],"org_facet":["REPUBLICAN
+        PARTY"],"per_facet":["ABBOTT, GREGORY W (1957- )"],"geo_facet":["TEXAS"],"media":[{"type":"image","subtype":"photo","caption":"Visitors
+        at the Houston rodeo in March, wearing state flag shirts. A Texas-centric
+        worldview has reached a cultural fever pitch in the state today, shaping many
+        facets of life.","copyright":"Ilana Panich-Linsman for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/03\/19\/us\/00test-texas05\/00test-texas05-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/03\/19\/us\/00test-texas05\/00test-texas05-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/03\/19\/us\/00test-texas05\/00test-texas05-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/08\/magazine\/the-aspiring-novelist-who-became-obamas-foreign-policy-guru.html","count_type":"EMAILED","column":"Feature","section":"Magazine","byline":"By
+        DAVID SAMUELS","title":"The Aspiring Novelist Who Became Obama\u2019s Foreign-Policy
+        Guru","abstract":"How Ben Rhodes rewrote the rules of diplomacy for the digital
+        age.","published_date":"2016-05-08","source":"The New York Times","des_facet":["UNITED
+        STATES POLITICS AND GOVERNMENT","UNITED STATES INTERNATIONAL RELATIONS","UNITED
+        STATES DEFENSE AND MILITARY FORCES"],"org_facet":"","per_facet":["RHODES,
+        BENJAMIN J","OBAMA, BARACK","FAVREAU, JON (1966- )","PANETTA, LEON V"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"Ben
+        Rhodes, deputy national security adviser for strategic communications, in
+        his office.","copyright":"Doug Mills\/The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/magazine\/08rhodes1\/08rhodes1-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/magazine\/08rhodes1\/08rhodes1-mediumThreeByTwo210-v5.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/magazine\/08rhodes1\/08rhodes1-mediumThreeByTwo440-v5.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/15\/sports\/two-hour-marathon-yannis-pitsiladis.html","count_type":"EMAILED","column":"Part
+        1","section":"Sports","byline":"By JER\u00c9 LONGMAN","title":"Man vs. Marathon","abstract":"One
+        scientist\u2019s quixotic quest to propel a runner past the two-hour barrier.","published_date":"2016-05-15","source":"The
+        New York Times","des_facet":["MARATHON RUNNING","DOPING (SPORTS)","RECORDS
+        AND ACHIEVEMENTS"],"org_facet":"","per_facet":["PITSILADIS, YANNIS"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"The
+        Dead Sea could be an ideal place to train a runner to complete a marathon
+        in less than two hours, according to the scientist Yannis Pitsiladis, who
+        did a test run along a dike there in February.","copyright":"Uriel Sinai for
+        The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/sports\/15MARATHONweb01sub-vertical\/15MARATHONweb01sub-vertical-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/sports\/15MARATHONweb01sub-vertical\/15MARATHONweb01sub-vertical-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/sports\/15MARATHONweb01sub-vertical\/15MARATHONweb01sub-vertical-mediumThreeByTwo440-v3.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/04\/27\/world\/africa\/riek-machar-south-sudan-opposition-leader-returns-as-part-of-peace-deal.html","count_type":"EMAILED","column":"","section":"World","byline":"By
+        JACEY FORTIN","title":"Riek Machar, South Sudan Opposition Leader, Returns
+        as Part of Peace Deal","abstract":"Mr. Machar emerged from exile to be restored
+        as vice president, but serious questions remained for a country ravaged by
+        more than two years of civil war.","published_date":"2016-04-27","source":"The
+        New York Times","des_facet":["WAR CRIMES, GENOCIDE AND CRIMES AGAINST HUMANITY"],"org_facet":"","per_facet":["MACHAR,
+        RIEK","KIIR MAYARDIT, SALVA"],"geo_facet":["SOUTH SUDAN","JUBA (SOUTH SUDAN)"],"media":[{"type":"image","subtype":"photo","caption":"President
+        Salva Kiir of South Sudan, right, with the opposition leader, Riek Machar,
+        left, as Mr. Machar was sworn in as vice president on Tuesday in Juba, the
+        capital.","copyright":"Reuters","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/world\/27southsudan-web2\/27southsudan-web2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/world\/27southsudan-web2\/27southsudan-web2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/world\/27southsudan-web2\/27southsudan-web2-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/01\/magazine\/what-happened-to-worcester.html","count_type":"EMAILED","column":"The
+        Money Issue","section":"Magazine","byline":"By ADAM DAVIDSON","title":"What
+        Happened to Worcester?","abstract":"A central Massachusetts city enabled the
+        author\u2019s ancestors to move into the good life of the middle class. That
+        move is more complicated now.","published_date":"2016-05-01","source":"The
+        New York Times","des_facet":["LABOR AND JOBS"],"org_facet":"","per_facet":"","geo_facet":["WORCESTER
+        (MASS)"],"media":[{"type":"image","subtype":"photo","caption":"Perry Avenue
+        and Seymour Street.","copyright":"William Mebane for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01worcester1-copy\/01worcester1-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01worcester1-copy\/01worcester1-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01worcester1-copy\/01worcester1-mediumThreeByTwo440-v2.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/15\/magazine\/warburg-effect-an-old-idea-revived-starve-cancer-to-death.html","count_type":"EMAILED","column":"The
+        Health Issue","section":"Magazine","byline":"By SAM APPLE","title":"An Old
+        Idea, Revived: Starve Cancer to Death","abstract":"In the early 20th century,
+        the German biochemist Otto Warburg believed that tumors could be treated by
+        disrupting their source of energy. His idea was dismissed for decades \u2014
+        until now.","published_date":"2016-05-15","source":"The New York Times","des_facet":["CANCER"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Photo
+        illustration by Cristiana Couceiro","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/magazine\/15warburg1-promo\/15mag-15warburg-t_CA0-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/magazine\/15warburg1-promo\/15mag-15warburg-t_CA0-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/magazine\/15warburg1-promo\/15mag-15warburg-t_CA0-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/interactive\/2016\/05\/12\/travel\/what-to-do-36-hours-in-amsterdam.html","count_type":"EMAILED","column":"36
+        Hours","section":"Travel","byline":"By INGRID K. WILLIAMS","title":"36 Hours
+        in Amsterdam","abstract":"With new restaurants and night spots, and the reopening
+        of the Rijksmuseum and the Stedelijk Museum, Amsterdam is in the midst of
+        an exciting renewal.","published_date":"2016-05-12","source":"The New York
+        Times","des_facet":["TRAVEL AND VACATIONS"],"org_facet":["STEDELIJK MUSEUM
+        AMSTERDAM"],"per_facet":"","geo_facet":["AMSTERDAM (NETHERLANDS)"],"media":[{"type":"image","subtype":"photo","caption":"A
+        view from above of the the city\u2019s center.","copyright":"Ilvy Njiokiktjien
+        for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/travel\/15HOURS-LISTY5\/15HOURS-LISTY5-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/travel\/15HOURS-LISTY5\/15HOURS-LISTY5-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/travel\/15HOURS-LISTY5\/15HOURS-LISTY5-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/interactive\/2016\/04\/29\/upshot\/money-race-and-success-how-your-school-district-compares.html","count_type":"EMAILED","column":"","section":"The
+        Upshot","byline":"By MOTOKO RICH, AMANDA COX and MATTHEW BLOCH","title":"Money,
+        Race and Success: How Your School District Compares","abstract":"Sixth graders
+        in the richest school districts are four grade levels ahead of children in
+        the poorest districts.","published_date":"2016-04-29","source":"The New York
+        Times","des_facet":["EDUCATION (K-12)","ECONOMIC CONDITIONS AND TRENDS","RACE
+        AND ETHNICITY"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/upshot\/how-money-predicts-success-in-every-american-school-district-1461877146083\/how-money-predicts-success-in-every-american-school-district-1461877146083-thumbStandard.png","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/upshot\/how-money-predicts-success-in-every-american-school-district-1461877146083\/how-money-predicts-success-in-every-american-school-district-1461877146083-mediumThreeByTwo210.png","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/upshot\/how-money-predicts-success-in-every-american-school-district-1461877146083\/how-money-predicts-success-in-every-american-school-district-1461877146083-mediumThreeByTwo440.png","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/01\/magazine\/president-obama-weighs-his-economic-legacy.html","count_type":"EMAILED","column":"The
+        Money Issue","section":"Magazine","byline":"By ANDREW ROSS SORKIN","title":"President
+        Obama Weighs His Economic Legacy","abstract":"Eight years after the financial
+        crisis, unemployment is at 5 percent, deficits are down and G.D.P. is growing.
+        Why do so many voters feel left behind? The president has a theory.","published_date":"2016-05-01","source":"The
+        New York Times","des_facet":["UNITED STATES ECONOMY","BANKING AND FINANCIAL
+        INSTITUTIONS"],"org_facet":"","per_facet":["OBAMA, BARACK"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"President
+        Barack Obama","copyright":"Katy Grannan for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01obama1\/01obama1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01obama1\/01obama1-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01obama1\/01obama1-mediumThreeByTwo440-v3.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/22\/opinion\/campaign-stops\/what-my-mother-sees-in-hillary.html","count_type":"EMAILED","column":"Opinion","section":"Opinion","byline":"By
+        ELIZABETH WORD GUTTING","title":"What My Mother Sees in Hillary","abstract":"The
+        story of two strong women who have fought against society\u2019s constraints.","published_date":"2016-05-22","source":"The
+        New York Times","des_facet":["PRESIDENTIAL ELECTION OF 2016","DISCRIMINATION"],"org_facet":"","per_facet":["CLINTON,
+        HILLARY RODHAM"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Shannon
+        Freshwater","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/22\/opinion\/sunday\/22gutting\/22gutting-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/22\/opinion\/sunday\/22gutting\/22gutting-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/22\/opinion\/sunday\/22gutting\/22gutting-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/interactive\/2016\/05\/15\/nyregion\/new-york-mass-graves-hart-island.html","count_type":"EMAILED","column":"","section":"N.Y.
+        \/ Region","byline":"By NINA BERNSTEIN","title":"Unearthing the Secrets of
+        New York\u2019s Mass Graves","abstract":"Over a million people are buried
+        in the city\u2019s potter\u2019s field on Hart Island. A New York Times investigation
+        uncovers some of their stories and the failings of the system that put them
+        there.","published_date":"2016-05-15","source":"The New York Times","des_facet":["CEMETERIES","CADAVERS"],"org_facet":"","per_facet":"","geo_facet":["HART
+        ISLAND (BRONX, NY)"],"media":[{"type":"image","subtype":"photo","caption":"A
+        bus from the New York City Correction Department taking jail inmates to the
+        Hart Island ferry in March. Inmates are paid 50 cents an hour to bury the
+        city\u2019s unclaimed dead in deep trenches.","copyright":"Victor J. Blue
+        for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/nyregion\/hart-island-slideshow-slide-VLB0\/hart-island-slideshow-slide-VLB0-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/nyregion\/hart-island-slideshow-slide-VLB0\/hart-island-slideshow-slide-VLB0-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/nyregion\/hart-island-slideshow-slide-VLB0\/hart-island-slideshow-slide-VLB0-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/04\/27\/opinion\/campaign-stops\/how-the-other-fifth-lives.html","count_type":"EMAILED","column":"Op-Ed
+        | Thomas B. Edsall","section":"Opinion","byline":"By THOMAS B. EDSALL","title":"How
+        the Other Fifth Lives","abstract":"The self-segregation of a privileged fifth
+        of the population is changing the American social order and the American political
+        system.","published_date":"2016-04-27","source":"The New York Times","des_facet":["UNITED
+        STATES POLITICS AND GOVERNMENT"],"org_facet":["DEMOCRATIC PARTY","REPUBLICAN
+        PARTY"],"per_facet":["SANDERS, BERNARD","CLINTON, HILLARY RODHAM"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Librado
+        Romero\/The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/opinion\/27edsallWeb\/27edsallWeb-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/opinion\/27edsallWeb\/27edsallWeb-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/opinion\/27edsallWeb\/27edsallWeb-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/03\/us\/resettling-the-first-american-climate-refugees.html","count_type":"EMAILED","column":"Carbon''s
+        Casualties","section":"U.S.","byline":"By CORAL DAVENPORT and CAMPBELL ROBERTSON","title":"Resettling
+        the First American \u2018Climate Refugees\u2019","abstract":"A $48 million
+        grant for Isle de Jean Charles, La., is the first allocation of federal tax
+        dollars to move an entire community struggling with the effects of climate
+        change.","published_date":"2016-05-03","source":"The New York Times","des_facet":["SERIES"],"org_facet":["HOUSING
+        AND URBAN DEVELOPMENT DEPARTMENT"],"per_facet":"","geo_facet":["ISLE DE JEAN
+        CHARLES (LA)","LOUISIANA"],"media":[{"type":"image","subtype":"photo","caption":"Amiya
+        Brunet, 3, on the bridge that leads to her home, which fills with up to a
+        foot of mud during storms. Her parents, Keith Brunet and Keisha McGehee, would
+        like to leave the island.<br \/><br \/>","copyright":"Josh Haner\/The New
+        York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/02\/us\/LOUISIANA2\/LOUISIANA2-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/02\/us\/LOUISIANA2\/LOUISIANA2-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/02\/us\/LOUISIANA2\/LOUISIANA2-mediumThreeByTwo440-v3.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/06\/opinion\/a-white-church-no-more.html","count_type":"EMAILED","column":"Op-Ed
+        Contributor","section":"Opinion","byline":"By RUSSELL MOORE","title":"A White
+        Church No More","abstract":"Racial and ethnic diversity is the future of evangelical
+        churches in America. It is time for them to reject nativism.","published_date":"2016-05-06","source":"The
+        New York Times","des_facet":["PRESIDENTIAL ELECTION OF 2016","EVANGELICAL
+        MOVEMENT","DISCRIMINATION","RACE AND ETHNICITY","MINORITIES","CHRISTIANS AND
+        CHRISTIANITY"],"org_facet":"","per_facet":["TRUMP, DONALD J"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"An
+        evangelical congregation in Queens, NY.","copyright":"Victor J. Blue for The
+        New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/06\/opinion\/06mooreWeb\/06mooreWeb-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/06\/opinion\/06mooreWeb\/06mooreWeb-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/06\/opinion\/06mooreWeb\/06mooreWeb-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]}]}'
+    http_version: 
+  recorded_at: Thu, 26 May 2016 16:55:22 GMT
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/mostpopular/v2/mostemailed/all-sections/30.json?api-key=f185cf82170b4bf6970752f56a62f867
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Age:
+      - '0'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 26 May 2016 16:56:31 GMT
+      Server:
+      - nginx/1.4.1
+      Vary:
+      - Origin
+      Via:
+      - kong/0.8.1
+      X-Cache:
+      - MISS
+      X-Kong-Proxy-Latency:
+      - '0'
+      X-Kong-Upstream-Latency:
+      - '0'
+      X-Ratelimit-Limit-Day:
+      - '1000'
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Day:
+      - '998'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      X-Varnish:
+      - '72401698'
+      Content-Length:
+      - '27685'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status":"OK","copyright":"Copyright (c) 2016 The New York Times Company.  All
+        Rights Reserved.","num_results":770,"results":[{"url":"http:\/\/www.nytimes.com\/2016\/05\/02\/health\/biggest-loser-weight-loss.html","count_type":"EMAILED","column":"The
+        Science of Fat","section":"Health","byline":"By GINA KOLATA","title":"After
+        \u2018The Biggest Loser,\u2019 Their Bodies Fought to Regain Weight","abstract":"Contestants
+        lost hundreds of pounds during Season 8, but gained them back. A study of
+        their struggles helps explain why so many people fail to keep off the weight
+        they lose.","published_date":"2016-05-02","source":"The New York Times","des_facet":["OBESITY","TELEVISION","SERIES","CALORIES"],"org_facet":["OBESITY
+        (JOURNAL)","NATIONAL INSTITUTE OF DIABETES AND DIGESTIVE AND KIDNEY DISEASES","NATIONAL
+        INSTITUTES OF HEALTH"],"per_facet":["CAHILL, DANNY (1969- )"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"Sean
+        Algaier taking communion at Providence Road Church of Christ in Charlotte,
+        N.C., where he is a pastor.","copyright":"George Etheredge for The New York
+        Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/science\/02BIGGESTLOSER\/02BIGGESTLOSER-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/science\/02BIGGESTLOSER\/02BIGGESTLOSER-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/science\/02BIGGESTLOSER\/02BIGGESTLOSER-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/08\/opinion\/sunday\/why-you-cant-lose-weight-on-a-diet.html","count_type":"EMAILED","column":"Opinion","section":"Opinion","byline":"By
+        SANDRA AAMODT","title":"Why You Can\u2019t Lose Weight on a Diet","abstract":"The
+        problem isn\u2019t willpower. It\u2019s neuroscience. You can\u2019t \u2014
+        and shouldn\u2019t \u2014 fight back.","published_date":"2016-05-08","source":"The
+        New York Times","des_facet":["DIET AND NUTRITION","WEIGHT","OBESITY","EATING
+        DISORDERS"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Eleni
+        Kalorkoti","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/opinion\/sunday\/08aamodt-copy\/08aamodt-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/opinion\/sunday\/08aamodt-copy\/08aamodt-copy-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/opinion\/sunday\/08aamodt-copy\/08aamodt-copy-mediumThreeByTwo440-v3.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/15\/us\/politics\/donald-trump-women.html","count_type":"EMAILED","column":"","section":"U.S.","byline":"By
+        MICHAEL BARBARO and MEGAN TWOHEY","title":"Crossing the Line: How Donald Trump
+        Behaved With Women in Private","abstract":"Interviews reveal unwelcome advances,
+        a shrewd reliance on ambition, and unsettling workplace conduct over decades.","published_date":"2016-05-15","source":"The
+        New York Times","des_facet":["WOMEN AND GIRLS","PRESIDENTIAL ELECTION OF 2016","DISCRIMINATION","SEXUAL
+        HARASSMENT"],"org_facet":"","per_facet":["TRUMP, DONALD J"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"Donald
+        J. Trump with Miss USA contestants in 2013, when he was the pageant\u2019s
+        owner.","copyright":"Darren Decker\/Miss Universe Organization, via Agence
+        France-Presse","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/12\/us\/politics\/00trumpwomen-top-copy\/00trumpwomen-top-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/12\/us\/politics\/00trumpwomen-top-copy\/00trumpwomen-top-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/12\/us\/politics\/00trumpwomen-top-copy\/00trumpwomen-top-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/interactive\/2016\/05\/01\/nyregion\/living-with-alzheimers.html","count_type":"EMAILED","column":"","section":"N.Y.
+        \/ Region","byline":"By N. R. KLEINFIELD","title":"Fraying at the Edges: Her
+        Fight to Live With Alzheimer\u2019s","abstract":"A withered person with a
+        scrambled mind, memories sealed away: That is the familiar face of Alzheimer\u2019s.
+        But there is also the waiting period, which Geri Taylor has been navigating
+        with prudence, grace and hope.","published_date":"2016-05-01","source":"The
+        New York Times","des_facet":["ALZHEIMER''S DISEASE"],"org_facet":"","per_facet":["TAYLOR,
+        GERALDINE A (1943- )"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"\u201cYou\u2019re
+        waiting for something. Something you don\u2019t want to come,\u201d said Geri
+        Taylor, referring to the slow progression of Alzheimer\u2019s.","copyright":"Michael
+        Kirby Smith for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/13\/nyregion\/00alzheimers-promo-social2\/00alzheimers-promo-social2-thumbStandard-v8.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/13\/nyregion\/00alzheimers-promo-social2\/00alzheimers-selects-raw-slide-SUAC-mediumThreeByTwo210-v5.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/13\/nyregion\/00alzheimers-promo-social2\/00alzheimers-selects-raw-slide-SUAC-mediumThreeByTwo440-v5.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/well.blogs.nytimes.com\/2016\/04\/27\/1-minute-of-all-out-exercise-may-equal-45-minutes-of-moderate-exertion\/","count_type":"EMAILED","column":"Well","section":"Health","byline":"By
+        GRETCHEN REYNOLDS","title":"1 Minute of All-Out Exercise May Have Benefits
+        of 45 Minutes of Moderate Exertion","abstract":"Sixty seconds of intense exercise
+        provided the benefits of three-quarters of an hour of moderate cycling.","published_date":"2016-04-27","source":"The
+        New York Times","des_facet":["EXERCISE"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"iStock","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/26\/health\/wellrun34\/wellrun34-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/26\/health\/wellrun34\/wellrun34-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/26\/health\/wellrun34\/wellrun34-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/01\/opinion\/better-aging-through-practice-practice-practice.html","count_type":"EMAILED","column":"Opinion","section":"Opinion","byline":"By
+        GERALD MARZORATI","title":"Better Aging Through Practice, Practice, Practice","abstract":"I
+        can\u2019t promise this will prolong your life. But it will improve it.","published_date":"2016-05-01","source":"The
+        New York Times","des_facet":["TENNIS","AGE, CHRONOLOGICAL","LONGEVITY","PSYCHOLOGY
+        AND PSYCHOLOGISTS"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Olivier
+        Schrauwen","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/opinion\/sunday\/01mazorati\/01mazorati-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/opinion\/sunday\/01mazorati\/01mazorati-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/opinion\/sunday\/01mazorati\/01mazorati-mediumThreeByTwo440-v2.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/08\/us\/what-makes-texas-texas.html","count_type":"EMAILED","column":"Assignment
+        America","section":"U.S.","byline":"By MANNY FERNANDEZ","title":"What Makes
+        Texas Texas","abstract":"People in this rapidly changing state believe their
+        way of life is under attack, and they are making a kind of last stand by simply
+        being Texan.","published_date":"2016-05-08","source":"The New York Times","des_facet":["SERIES"],"org_facet":["REPUBLICAN
+        PARTY"],"per_facet":["ABBOTT, GREGORY W (1957- )"],"geo_facet":["TEXAS"],"media":[{"type":"image","subtype":"photo","caption":"Visitors
+        at the Houston rodeo in March, wearing state flag shirts. A Texas-centric
+        worldview has reached a cultural fever pitch in the state today, shaping many
+        facets of life.","copyright":"Ilana Panich-Linsman for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/03\/19\/us\/00test-texas05\/00test-texas05-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/03\/19\/us\/00test-texas05\/00test-texas05-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/03\/19\/us\/00test-texas05\/00test-texas05-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/08\/magazine\/the-aspiring-novelist-who-became-obamas-foreign-policy-guru.html","count_type":"EMAILED","column":"Feature","section":"Magazine","byline":"By
+        DAVID SAMUELS","title":"The Aspiring Novelist Who Became Obama\u2019s Foreign-Policy
+        Guru","abstract":"How Ben Rhodes rewrote the rules of diplomacy for the digital
+        age.","published_date":"2016-05-08","source":"The New York Times","des_facet":["UNITED
+        STATES POLITICS AND GOVERNMENT","UNITED STATES INTERNATIONAL RELATIONS","UNITED
+        STATES DEFENSE AND MILITARY FORCES"],"org_facet":"","per_facet":["RHODES,
+        BENJAMIN J","OBAMA, BARACK","FAVREAU, JON (1966- )","PANETTA, LEON V"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"Ben
+        Rhodes, deputy national security adviser for strategic communications, in
+        his office.","copyright":"Doug Mills\/The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/magazine\/08rhodes1\/08rhodes1-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/magazine\/08rhodes1\/08rhodes1-mediumThreeByTwo210-v5.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/magazine\/08rhodes1\/08rhodes1-mediumThreeByTwo440-v5.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/15\/sports\/two-hour-marathon-yannis-pitsiladis.html","count_type":"EMAILED","column":"Part
+        1","section":"Sports","byline":"By JER\u00c9 LONGMAN","title":"Man vs. Marathon","abstract":"One
+        scientist\u2019s quixotic quest to propel a runner past the two-hour barrier.","published_date":"2016-05-15","source":"The
+        New York Times","des_facet":["MARATHON RUNNING","DOPING (SPORTS)","RECORDS
+        AND ACHIEVEMENTS"],"org_facet":"","per_facet":["PITSILADIS, YANNIS"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"The
+        Dead Sea could be an ideal place to train a runner to complete a marathon
+        in less than two hours, according to the scientist Yannis Pitsiladis, who
+        did a test run along a dike there in February.","copyright":"Uriel Sinai for
+        The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/sports\/15MARATHONweb01sub-vertical\/15MARATHONweb01sub-vertical-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/sports\/15MARATHONweb01sub-vertical\/15MARATHONweb01sub-vertical-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/sports\/15MARATHONweb01sub-vertical\/15MARATHONweb01sub-vertical-mediumThreeByTwo440-v3.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/04\/27\/world\/africa\/riek-machar-south-sudan-opposition-leader-returns-as-part-of-peace-deal.html","count_type":"EMAILED","column":"","section":"World","byline":"By
+        JACEY FORTIN","title":"Riek Machar, South Sudan Opposition Leader, Returns
+        as Part of Peace Deal","abstract":"Mr. Machar emerged from exile to be restored
+        as vice president, but serious questions remained for a country ravaged by
+        more than two years of civil war.","published_date":"2016-04-27","source":"The
+        New York Times","des_facet":["WAR CRIMES, GENOCIDE AND CRIMES AGAINST HUMANITY"],"org_facet":"","per_facet":["MACHAR,
+        RIEK","KIIR MAYARDIT, SALVA"],"geo_facet":["SOUTH SUDAN","JUBA (SOUTH SUDAN)"],"media":[{"type":"image","subtype":"photo","caption":"President
+        Salva Kiir of South Sudan, right, with the opposition leader, Riek Machar,
+        left, as Mr. Machar was sworn in as vice president on Tuesday in Juba, the
+        capital.","copyright":"Reuters","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/world\/27southsudan-web2\/27southsudan-web2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/world\/27southsudan-web2\/27southsudan-web2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/world\/27southsudan-web2\/27southsudan-web2-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/01\/magazine\/what-happened-to-worcester.html","count_type":"EMAILED","column":"The
+        Money Issue","section":"Magazine","byline":"By ADAM DAVIDSON","title":"What
+        Happened to Worcester?","abstract":"A central Massachusetts city enabled the
+        author\u2019s ancestors to move into the good life of the middle class. That
+        move is more complicated now.","published_date":"2016-05-01","source":"The
+        New York Times","des_facet":["LABOR AND JOBS"],"org_facet":"","per_facet":"","geo_facet":["WORCESTER
+        (MASS)"],"media":[{"type":"image","subtype":"photo","caption":"Perry Avenue
+        and Seymour Street.","copyright":"William Mebane for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01worcester1-copy\/01worcester1-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01worcester1-copy\/01worcester1-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01worcester1-copy\/01worcester1-mediumThreeByTwo440-v2.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/15\/magazine\/warburg-effect-an-old-idea-revived-starve-cancer-to-death.html","count_type":"EMAILED","column":"The
+        Health Issue","section":"Magazine","byline":"By SAM APPLE","title":"An Old
+        Idea, Revived: Starve Cancer to Death","abstract":"In the early 20th century,
+        the German biochemist Otto Warburg believed that tumors could be treated by
+        disrupting their source of energy. His idea was dismissed for decades \u2014
+        until now.","published_date":"2016-05-15","source":"The New York Times","des_facet":["CANCER"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Photo
+        illustration by Cristiana Couceiro","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/magazine\/15warburg1-promo\/15mag-15warburg-t_CA0-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/magazine\/15warburg1-promo\/15mag-15warburg-t_CA0-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/magazine\/15warburg1-promo\/15mag-15warburg-t_CA0-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/interactive\/2016\/05\/12\/travel\/what-to-do-36-hours-in-amsterdam.html","count_type":"EMAILED","column":"36
+        Hours","section":"Travel","byline":"By INGRID K. WILLIAMS","title":"36 Hours
+        in Amsterdam","abstract":"With new restaurants and night spots, and the reopening
+        of the Rijksmuseum and the Stedelijk Museum, Amsterdam is in the midst of
+        an exciting renewal.","published_date":"2016-05-12","source":"The New York
+        Times","des_facet":["TRAVEL AND VACATIONS"],"org_facet":["STEDELIJK MUSEUM
+        AMSTERDAM"],"per_facet":"","geo_facet":["AMSTERDAM (NETHERLANDS)"],"media":[{"type":"image","subtype":"photo","caption":"A
+        view from above of the the city\u2019s center.","copyright":"Ilvy Njiokiktjien
+        for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/travel\/15HOURS-LISTY5\/15HOURS-LISTY5-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/travel\/15HOURS-LISTY5\/15HOURS-LISTY5-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/15\/travel\/15HOURS-LISTY5\/15HOURS-LISTY5-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/interactive\/2016\/04\/29\/upshot\/money-race-and-success-how-your-school-district-compares.html","count_type":"EMAILED","column":"","section":"The
+        Upshot","byline":"By MOTOKO RICH, AMANDA COX and MATTHEW BLOCH","title":"Money,
+        Race and Success: How Your School District Compares","abstract":"Sixth graders
+        in the richest school districts are four grade levels ahead of children in
+        the poorest districts.","published_date":"2016-04-29","source":"The New York
+        Times","des_facet":["EDUCATION (K-12)","ECONOMIC CONDITIONS AND TRENDS","RACE
+        AND ETHNICITY"],"org_facet":"","per_facet":"","geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/upshot\/how-money-predicts-success-in-every-american-school-district-1461877146083\/how-money-predicts-success-in-every-american-school-district-1461877146083-thumbStandard.png","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/upshot\/how-money-predicts-success-in-every-american-school-district-1461877146083\/how-money-predicts-success-in-every-american-school-district-1461877146083-mediumThreeByTwo210.png","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/29\/upshot\/how-money-predicts-success-in-every-american-school-district-1461877146083\/how-money-predicts-success-in-every-american-school-district-1461877146083-mediumThreeByTwo440.png","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/01\/magazine\/president-obama-weighs-his-economic-legacy.html","count_type":"EMAILED","column":"The
+        Money Issue","section":"Magazine","byline":"By ANDREW ROSS SORKIN","title":"President
+        Obama Weighs His Economic Legacy","abstract":"Eight years after the financial
+        crisis, unemployment is at 5 percent, deficits are down and G.D.P. is growing.
+        Why do so many voters feel left behind? The president has a theory.","published_date":"2016-05-01","source":"The
+        New York Times","des_facet":["UNITED STATES ECONOMY","BANKING AND FINANCIAL
+        INSTITUTIONS"],"org_facet":"","per_facet":["OBAMA, BARACK"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"President
+        Barack Obama","copyright":"Katy Grannan for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01obama1\/01obama1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01obama1\/01obama1-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/01\/magazine\/01obama1\/01obama1-mediumThreeByTwo440-v3.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/22\/opinion\/campaign-stops\/what-my-mother-sees-in-hillary.html","count_type":"EMAILED","column":"Opinion","section":"Opinion","byline":"By
+        ELIZABETH WORD GUTTING","title":"What My Mother Sees in Hillary","abstract":"The
+        story of two strong women who have fought against society\u2019s constraints.","published_date":"2016-05-22","source":"The
+        New York Times","des_facet":["PRESIDENTIAL ELECTION OF 2016","DISCRIMINATION"],"org_facet":"","per_facet":["CLINTON,
+        HILLARY RODHAM"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Shannon
+        Freshwater","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/22\/opinion\/sunday\/22gutting\/22gutting-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/22\/opinion\/sunday\/22gutting\/22gutting-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/22\/opinion\/sunday\/22gutting\/22gutting-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/interactive\/2016\/05\/15\/nyregion\/new-york-mass-graves-hart-island.html","count_type":"EMAILED","column":"","section":"N.Y.
+        \/ Region","byline":"By NINA BERNSTEIN","title":"Unearthing the Secrets of
+        New York\u2019s Mass Graves","abstract":"Over a million people are buried
+        in the city\u2019s potter\u2019s field on Hart Island. A New York Times investigation
+        uncovers some of their stories and the failings of the system that put them
+        there.","published_date":"2016-05-15","source":"The New York Times","des_facet":["CEMETERIES","CADAVERS"],"org_facet":"","per_facet":"","geo_facet":["HART
+        ISLAND (BRONX, NY)"],"media":[{"type":"image","subtype":"photo","caption":"A
+        bus from the New York City Correction Department taking jail inmates to the
+        Hart Island ferry in March. Inmates are paid 50 cents an hour to bury the
+        city\u2019s unclaimed dead in deep trenches.","copyright":"Victor J. Blue
+        for The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/nyregion\/hart-island-slideshow-slide-VLB0\/hart-island-slideshow-slide-VLB0-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/nyregion\/hart-island-slideshow-slide-VLB0\/hart-island-slideshow-slide-VLB0-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/08\/nyregion\/hart-island-slideshow-slide-VLB0\/hart-island-slideshow-slide-VLB0-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/04\/27\/opinion\/campaign-stops\/how-the-other-fifth-lives.html","count_type":"EMAILED","column":"Op-Ed
+        | Thomas B. Edsall","section":"Opinion","byline":"By THOMAS B. EDSALL","title":"How
+        the Other Fifth Lives","abstract":"The self-segregation of a privileged fifth
+        of the population is changing the American social order and the American political
+        system.","published_date":"2016-04-27","source":"The New York Times","des_facet":["UNITED
+        STATES POLITICS AND GOVERNMENT"],"org_facet":["DEMOCRATIC PARTY","REPUBLICAN
+        PARTY"],"per_facet":["SANDERS, BERNARD","CLINTON, HILLARY RODHAM"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"","copyright":"Librado
+        Romero\/The New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/opinion\/27edsallWeb\/27edsallWeb-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/opinion\/27edsallWeb\/27edsallWeb-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/04\/27\/opinion\/27edsallWeb\/27edsallWeb-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/03\/us\/resettling-the-first-american-climate-refugees.html","count_type":"EMAILED","column":"Carbon''s
+        Casualties","section":"U.S.","byline":"By CORAL DAVENPORT and CAMPBELL ROBERTSON","title":"Resettling
+        the First American \u2018Climate Refugees\u2019","abstract":"A $48 million
+        grant for Isle de Jean Charles, La., is the first allocation of federal tax
+        dollars to move an entire community struggling with the effects of climate
+        change.","published_date":"2016-05-03","source":"The New York Times","des_facet":["SERIES"],"org_facet":["HOUSING
+        AND URBAN DEVELOPMENT DEPARTMENT"],"per_facet":"","geo_facet":["ISLE DE JEAN
+        CHARLES (LA)","LOUISIANA"],"media":[{"type":"image","subtype":"photo","caption":"Amiya
+        Brunet, 3, on the bridge that leads to her home, which fills with up to a
+        foot of mud during storms. Her parents, Keith Brunet and Keisha McGehee, would
+        like to leave the island.<br \/><br \/>","copyright":"Josh Haner\/The New
+        York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/02\/us\/LOUISIANA2\/LOUISIANA2-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/02\/us\/LOUISIANA2\/LOUISIANA2-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/02\/us\/LOUISIANA2\/LOUISIANA2-mediumThreeByTwo440-v3.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]},{"url":"http:\/\/www.nytimes.com\/2016\/05\/06\/opinion\/a-white-church-no-more.html","count_type":"EMAILED","column":"Op-Ed
+        Contributor","section":"Opinion","byline":"By RUSSELL MOORE","title":"A White
+        Church No More","abstract":"Racial and ethnic diversity is the future of evangelical
+        churches in America. It is time for them to reject nativism.","published_date":"2016-05-06","source":"The
+        New York Times","des_facet":["PRESIDENTIAL ELECTION OF 2016","EVANGELICAL
+        MOVEMENT","DISCRIMINATION","RACE AND ETHNICITY","MINORITIES","CHRISTIANS AND
+        CHRISTIANITY"],"org_facet":"","per_facet":["TRUMP, DONALD J"],"geo_facet":"","media":[{"type":"image","subtype":"photo","caption":"An
+        evangelical congregation in Queens, NY.","copyright":"Victor J. Blue for The
+        New York Times","media-metadata":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/06\/opinion\/06mooreWeb\/06mooreWeb-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/06\/opinion\/06mooreWeb\/06mooreWeb-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210},{"url":"https:\/\/static01.nyt.com\/images\/2016\/05\/06\/opinion\/06mooreWeb\/06mooreWeb-mediumThreeByTwo440.jpg","format":"mediumThreeByTwo440","height":293,"width":440}]}]}]}'
+    http_version: 
+  recorded_at: Thu, 26 May 2016 16:56:38 GMT
+recorded_with: VCR 3.0.3
